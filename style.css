@@ -1,0 +1,74 @@
+.attribution { color:hsl(257, 40%, 49%); font-size: 20px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.landing{
+    background: url(./images/bg-desktop.svg);
+    background-size: cover;
+    width: 1440px;
+    margin: 0 auto;
+    background-color:hsl(257, 40%, 49%);
+    display: flex;
+    
+}
+.logobar{
+    padding: 60px;
+}
+.mockup{
+    margin-top: 20px;
+    margin-left: 60px;
+    
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+p,a{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.info{
+  margin: 250px 30px 0px 50px;
+}
+.titulo{
+    font-size: 40px;
+    width: 600px;
+}
+.infos{
+    margin-top: 20px;
+    font-size: 21px;
+    width: 550px ;
+}
+.btn{
+    margin-top: 30px;
+    width: 180px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    background: hsl(300, 69%, 71%);
+    border-radius: 50px;
+}
+.btn:hover{
+    box-shadow: 4px 4px 20px rgb(31, 30, 30);
+}
+.footer img{
+   
+    padding: 10px;
+    margin-right: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    
+}
+.footer{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 390px;
+    padding-bottom: 50px;
+}
+.footer img:hover{
+border-color: hsl(300, 69%, 71%);
+}
